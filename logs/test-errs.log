@@ -1,0 +1,33 @@
+-- NAMING ERROR ---------------- A:\Elm-Project\Elm-Project-updated\src\Main.elm
+
+I cannot find a `RemoteData.fromTask` variable:
+
+37|         |> RemoteData.fromTask
+               ^^^^^^^^^^^^^^^^^^^
+I cannot find a `RemoteData` import. These names seem close though:
+
+    Result.fromMaybe
+    Http.task
+    String.fromList
+    Char.fromCode
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+-- NAMING ERROR ---------------- A:\Elm-Project\Elm-Project-updated\src\Main.elm
+
+I cannot find a `Task.attempt` variable:
+
+38|         |> Task.attempt GotRepos
+               ^^^^^^^^^^^^
+I cannot find a `Task` import. These names seem close though:
+
+    List.isEmpty
+    Html.text
+    List.append
+    List.repeat
+
+Hint: Read <https://elm-lang.org/0.19.1/imports> to see how `import`
+declarations work in Elm.
+
+`elm make` failed with exit code 1.
